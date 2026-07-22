@@ -1,0 +1,273 @@
+1 A patteren s 
+   
+    rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 3 or col == 0 or col == 6:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+output:
+ * * * * * * * 
+*           * 
+*           * 
+* * * * * * * 
+*           * 
+*           * 
+*           * 
+
+2 B pattrens
+  
+  rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 3 or row == 6 or col == 0 or col == 6:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+output:
+ * * * * * * * 
+*           * 
+*           * 
+* * * * * * * 
+*           * 
+*           * 
+* * * * * * * 
+3 C patterens
+   
+rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 6 or col == 0:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+out put:
+ * * * * * * * 
+*             
+*             
+*             
+*             
+*             
+* * * * * * * 
+
+4 D pattrens
+
+rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 6 or col == 0 or col == 6:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+output:
+
+* * * * * * * 
+*           * 
+*           * 
+*           * 
+*           * 
+*           * 
+* * * * * * * 
+
+5 E pattrens
+   rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 3 or row == 6 or col == 0:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+output:
+  * * * * * * * 
+*             
+*             
+* * * * * * * 
+*             
+*             
+* * * * * * *
+
+6 F pattern
+
+  for row in range(rows):
+    for col in range(rows):
+        if row == 0 or row == 3 or col == 0:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+output:
+* * * * * * *
+*
+*
+* * * * * * *
+*
+*
+*             
+
+7 H pattern
+  rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if col == 0 or col == 6 or row == 3:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+
+output:
+*           * 
+*           * 
+*           * 
+* * * * * * * 
+*           * 
+*           * 
+*           * 
+
+8 I pattern
+ rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if row == 0 or col == 3 or row == 6 or col == 0:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+output:
+* * * * * * * 
+     *       
+     *       
+     *       
+     *       
+     *       
+* * * * * * *   
+9 K patteren
+
+rows = 7
+
+for row in range(rows):
+    for col in range(rows):
+        if col == 0 or row == col or row + col == 6:
+            print("*", end=" ")
+        else:
+            print(" ", end=" ")
+    print()
+output:
+* 
+*       * 
+*     *   
+*   *     
+*     *       
+*      *     
+*       *   
+
+10  L pattern
+
+for i in range(5):
+    for j in range(5):
+        if j == 0 or i == 4:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+output:
+*
+*
+*
+*
+*****
+
+11 M pattern
+
+for i in range(5):
+    for j in range(5):
+        if j == 0 or j == 4 or (i == 1 and (j == 1 or j == 3)) or (i == 2 and j == 2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+ output:
+
+*   *
+** **
+* * *
+*   *
+*   *
+
+12 N pattern
+
+for i in range(5):
+    for j in range(5):
+        if j == 0 or j == 4 or i == j:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+output:
+*   *
+**  *
+* * *
+*  **
+*   *
+
+13 O pattren 
+for i in range(5):
+    for j in range(5):
+        if (i == 0 and j > 0 and j < 4) or (i == 4 and j > 0 and j < 4) or ((j == 0 or j == 4) and i > 0 and i < 4):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()           
+
+14 p pattren
+for i in range(5):
+    for j in range(5):
+        if j == 0 or (i == 0 and j < 4) or (i == 2 and j < 4) or (j == 4 and i == 1) or (i == j and i > 2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+15 s pattern
+
+for i in range(5):
+    for j in range(5):
+        if (i == 0) or (i == 2) or (i == 4) or (j == 0 and i < 2) or (j == 4 and i > 2):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+16 T pattern
+for i in range(5):
+    for j in range(5):
+        if i == 0 or j == 2:
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
+17 U pattern
+
+for i in range(5):
+    for j in range(5):
+        if (j == 0 or j == 4) and i < 4 or (i == 4 and j > 0 and j < 4):
+            print("*", end="")
+        else:
+            print(" ", end="")
+    print()
+
